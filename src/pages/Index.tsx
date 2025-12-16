@@ -105,9 +105,7 @@ export default function Index() {
             <a href="#studios" className="text-sm hover:text-primary transition-colors">Залы</a>
             <a href="#services" className="text-sm hover:text-primary transition-colors">Услуги</a>
             <a href="#masterclasses" className="text-sm hover:text-primary transition-colors">Мастер-классы</a>
-            <a href="#pricing" className="text-sm hover:text-primary transition-colors">Прайс</a>
-            <a href="/branding" className="text-sm hover:text-secondary transition-colors">Брендинг</a>
-            <a href="/calculator" className="text-sm hover:text-accent transition-colors">Калькулятор</a>
+            <a href="/targeting" className="text-sm hover:text-accent transition-colors">Таргетинг</a>
             <a href="#contacts" className="text-sm hover:text-primary transition-colors">Контакты</a>
           </div>
           <Dialog open={bookingOpen} onOpenChange={setBookingOpen}>
