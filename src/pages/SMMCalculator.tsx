@@ -545,6 +545,18 @@ const SMMCalculator = () => {
                     Сохранить настройки
                   </Button>
 
+                  <a 
+                    href="https://c90bc39d-4747-4b90-a372-760fa36b705f.poehali.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Button variant="outline" className="w-full" size="lg">
+                      <Icon name="ExternalLink" className="mr-2" size={20} />
+                      Открыть сайт студии
+                    </Button>
+                  </a>
+
                   <div className="grid grid-cols-2 gap-3">
                     <Button variant="outline" size="sm" asChild>
                       <a href="/targeting">
