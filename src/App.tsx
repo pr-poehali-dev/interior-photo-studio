@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Branding from "./pages/Branding";
 import MarketingCalculator from "./pages/MarketingCalculator";
 import TargetingSettings from "./pages/TargetingSettings";
+import SMMCalculator from "./pages/SMMCalculator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/branding" element={<Branding />} />
           <Route path="/calculator" element={<MarketingCalculator />} />
           <Route path="/targeting" element={<TargetingSettings />} />
+          <Route path="/smm" element={<SMMCalculator />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
